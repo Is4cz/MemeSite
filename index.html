@@ -179,6 +179,74 @@
             padding-right: 30px;
             padding-top: 2px;
         }
+
+        @media (max-width: 1641px) {
+            .mainContainer {
+                grid-template-columns: 1fr;
+                overflow-x: hidden; /* Remove a barra de rolagem inferior */
+            }
+
+            .leftBackground {
+                display: none; /* Oculta o leftBackground e os cartões */
+            }
+
+            .cardFront, .cardBack {
+                width: 100%;
+                margin-left: 0;
+                margin-top: 20px;
+            }
+
+            .cardFront {
+                margin-top: 20px;
+            }
+
+            .rightBackground {
+                font-size: 16px;
+                margin: 20px; /* Adiciona margem */
+            }
+
+            .fieldsprimary {
+                width: 90%;
+            }
+
+            .boxes, .subbox, .verifybutton {
+                font-size: 16px;
+            }
+        }
+
+        @media (max-width: 1641px) {
+            .mainContainer {
+                grid-template-columns: 1fr;
+                overflow-x: hidden; /* Remove a barra de rolagem inferior */
+            }
+
+            .leftBackground {
+                display: none; /* Oculta o leftBackground e os cartões */
+            }
+
+            .cardFront, .cardBack {
+                width: 100%;
+                margin-left: 0;
+                margin-top: 10px;
+            }
+
+            .cardFront {
+                margin-top: 10px;
+            }
+
+            .rightBackground {
+                font-size: 14px;
+                margin: 20px; /* Adiciona margem */
+            }
+
+            .fieldsprimary {
+                width: 100%;
+            }
+
+            .boxes, .subbox, .verifybutton {
+                font-size: 14px;
+            }
+        }
     </style>
 </head>
 <body>
